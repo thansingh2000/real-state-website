@@ -1,0 +1,62 @@
+[
+	{
+		"id":1,
+		"name":"Builders",
+		"desc":"We are one of the renowned builders with enormous understanding and knowledge of this field.",
+		"thumbnail":"img/builders.webp"
+	},
+	{
+		"id":2,
+		"name":"Civil Contractors",
+		"desc":"We are one of the renowned civil contractors with enormous understanding and knowledge in this field.",
+		"thumbnail":"img/civilContractors.webp"
+	},
+	{
+		"id":3,
+		"name":"Land Developers For Plot",
+		"desc":"Alter a land into a plot according to the necessity & purpose with the expert land developers & their tactics.",
+		"thumbnail":"img/landDevelopers.jpeg"
+	},
+	{
+		"id":4,
+		"name":"Residential Builders",
+		"desc":"We offer builder services for residential complexes. We ensure that our clients are happy with our work.",
+		"thumbnail":"img/residentialBuilders.webp"
+	},
+	{
+		"id":5,
+		"name":"Residential Construction Companies",
+		"desc":"We are a leading name in this domain engaged in providing highly reliable residential construction services.",
+		"thumbnail":"img/residentialConstruction.webp"
+	},
+	{
+		"id":6,
+		"name":"Building Construction Services",
+		"desc":"We offer building construction services as per your specifications within the suitable time and budget.",
+		"thumbnail":"img/buildingConstruction.jpg"
+	},
+	{
+		"id":7,
+		"name":"Interior Design Services",
+		"desc":"As per the taste, preference and budget of client we help them in organising their home the way they want.",
+		"thumbnail":"img/interiorDesign.webp"
+	},
+	{
+		"id":8,
+		"name":"Landscaping Services",
+		"desc":"Designing and changing the outdoor space of your environment where you reside. Contact us today.",
+		"thumbnail":"img/landScaping.webp"
+	},
+	{
+		"id":9,
+		"name":"Civil Services",
+		"desc":"We also provide various civil works at very affordable prices,contact us today for your civil works.",
+		"thumbnail":"img/civil.webp"
+	},
+	{
+		"id":10,
+		"name":"Property Developers",
+		"desc":"We are the best property developers providing quality assurance, innovation, luxury, commitment etc.",
+		"thumbnail":"img/property.webp"
+	}
+]

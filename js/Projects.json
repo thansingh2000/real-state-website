@@ -1,0 +1,60 @@
+[
+    {
+        "id":1,
+        "name":"Ekdanta Niwas",
+        "Location":"Uslapur Basti",
+        "Area":"20*50=1000 Square feet",
+        "Build":"700 Square feet",
+        "Price":"25,99,000/-",
+        "Size":"2BHK",
+        "PlotPrice":"1200/Square feet",
+		"Thubnail":"img/Ekdunta.jpeg",
+		"Layout":"img/Ekdunta.jpg",
+		"Hthumb":"img/EkduntaHome.jpeg",
+		"url":"Akdunta.html"
+    },
+	
+	{
+        "id":2,
+        "name":"Shivay Homes",
+        "Location":"Sakari",
+        "Area":"25*40=1000  Square feet",
+        "Build":"700 Square feet",
+        "Price":"24,99,000/-",
+        "Size":"2BHK",
+        "PlotPrice":"1300/Square feet",		
+		"Thubnail":"img/Ekdunta.jpeg",
+		"Layout":"img/Shivayngar.jpeg",
+		"Hthumb":"img/ShivayHome.jpeg",
+		"url":"Shivayhomes.html"
+    },
+    {
+        "id":3,
+        "name":"Ganesh Vihar",
+        "Location":"Akash Marg Mangla Chowk",
+        "Area":"25*40=1000  Square feet",
+        "Build":"800 Square feet",
+        "Price":"42,99,000/-",
+        "Size":"2BHK",
+        "PlotPrice":"2750/Square feet",	
+		"Hthumb":"img/Akashmarg.jpeg",
+		"Thubnail":"img/Akashmarg.jpeg",
+		"Layout":"img/ganesh_homes.png",
+		"url":"Ganeshvihar.html"
+    },
+    {
+        "id":4,
+        "name":"Shivay Nagar Fase 2",
+        "Location":"Shivay Nagar Fase 2",
+        "Area":"25*40=1000 Square feet",
+        "Build":"800 Square feet",
+        "Price":"30,99,000/-",
+        "Size":"2BHK",
+        "PlotPrice":"1200/Square feet",			
+		"Thubnail":"img/shivay2.jpeg",
+		"Layout":"img/shivayy.jpeg",
+		"Hthumb":"img/face2.jpeg",
+		"url":"Shivaynagar.html"
+    }
+]
+

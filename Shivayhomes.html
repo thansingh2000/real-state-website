@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" >
+	<meta name="theme-color" content="#dc3545" />
+	<link rel="icon" type="image/x-icon" href="img/logo.png">
+    <title>Shivay Homes - Shree Gaensh Home Bilaspur </title>
+
+</head>
+<body>
+    <main>
+        <header id="Header"></header>
+		<nav id="nav"></nav>
+		<section class="mainBg">
+			<div class="container">
+				<div class="d-flex bgDesign">
+					<div>
+						<h2>Shivay Homes</h2>
+					</div>
+					<div>
+						<a class="btn btn-danger" href="index.html">Home</a>
+						<a class="btn btn-success" href="#">Shivay</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<article class="Pdetails">
+			<div class="container">
+				<div class="SubTitle text-center py-5">
+				<h2>Details <b class="text-success">Shivay Homes</b></h2>
+				<p>Your Trusted and Assured Builders and Developers.</p>
+				</div>
+				<div class="Dbox d-flex">
+					<div class="Dimage" id="Dimg">						
+					</div>
+					<div class="Ddata pt-5">
+						<div id="Pdata"></div>
+						<div class="text-center py-2">
+							<a href="Contactus.html" class="btn btn-danger">Contact Us</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</article>
+		<article id="Projects"></article>
+		<article id="banner"></article>
+		<footer id="Footer"></footer>
+    </main>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+	<script>
+			let Url="js/Projects.json";
+			let imgsrc= document.getElementById("Dimg");
+			fetch(Url).then((Response)=>{
+				return Response.json();
+			}).then((data)=>{
+				imgsrc.innerHTML=`<img src=${data[1].Layout}>`;
+				Pdata.innerHTML=`
+					<table class="table ">
+						<tr>
+							<td class="fw-bold">Area</td>
+							<td>${data[1].Area}</td>
+						</tr>
+						<tr>
+							<td  class="fw-bold">Build</td>
+							<td>${data[1].Build}</td>
+						</tr>
+						<tr class="text-success fw-bold">
+							<td>Price</td>
+							<td>${data[1].Price}</td>
+						</tr>
+						<tr>
+							<td class="fw-bold">Size</td>
+							<td>${data[1].Size}</td>
+						</tr>
+						<tr>
+							<td class="fw-bold">PlotPrice</td>
+							<td>${data[1].PlotPrice}</td>
+						</tr>
+					</table>
+				`;
+			});
+	</script>
+</body>
+</html>
